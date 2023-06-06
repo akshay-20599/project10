@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.side-1{
+
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+input{
+    padding: 23px 250px;
+}
+.button{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.btn>button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+}
+.btn1>button{
+    color: #fff;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+}
+
+.md{
+    display: flex;
+}
+h1{
+    font-size: 23px;
+}
+h2{
+    font-size: 19px;
+}
+h3{
+    font-size: 15px;
+}
+h1,h2,h3{
+    margin-left: 20px;
+    margin: 10px 0px;
+}
+.dot-3{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.imges{
+    margin: 10px;
+}
+
+.allpage{
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(235, 230, 230);
+}
+
+.allemages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media all and(max-width:780px){
+    .allemages{
+        display: block;
+        
+    }
+
+}

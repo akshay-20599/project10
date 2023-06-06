@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+    background-color: rgb(56, 233, 233);
+ }
+ li{
+    display: inline;
+    text-decoration: none;
+ }
+ a{
+    text-decoration: none;
+    margin: 9px;
+ }
+
+
+ .first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .f1>h1{
+  font-size: 50px;
+ }
+ .f1>h4{
+    font-size: 30px;
+    font-weight: 300;
+ }
+ .f2>img{
+    border-radius: 40px;
+ }
+ .second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 4px 4px 4px 4px rgb(221, 217, 216);
+    border-radius: 10px;
+    padding: 0px 80px;
+ }
+.btnn{
+padding: 10px 20px;
+background-color: rgb(64, 64, 156);
+border-radius: 16px;
+color: #fff;
+margin-left: 30px;
+border: none;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+h5{
+   font-size: 20px;
+}
+.third{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+   
+}
+.t1{
+   width: 25%;
+   box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+   border: 1px solid #e2e2e2;
+   border-radius: 0.5rem;
+    overflow: hidden;
+}
+.t1>a>button{
+   margin-left: 50%;
+   padding: 10px 20px;
+   background-color: rgb(64, 64, 156);
+   border-radius: 16px;
+color: #fff;
+border: none;
+}
+footer{
+   text-align: center;
+}
+
+
+
+
+ @media (max-width:780px){
+    nav{
+        padding: 0px 0px;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+     }
+
+     .second{
+      flex-direction: column-reverse;
+      padding: 0px;
+      
+   }
+   .third{
+      flex-direction: column;
+   }
+   .t1{
+      width: 100%;
+   }
+ }
